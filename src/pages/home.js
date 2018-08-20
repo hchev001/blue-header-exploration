@@ -33,7 +33,8 @@ export class MainSection extends Component {
     return (
       <div>
         <h1>Community Giving Opportunity</h1>
-        <img />
+        <img alt="Computer" src={require("../images/Computer_0.png")} />
+
         <p>
           Memerama is the largest community of accomplished designers and
           developers giving each other work opportunities and making thousands
