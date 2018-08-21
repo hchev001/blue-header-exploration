@@ -19,7 +19,7 @@ export class NavBar extends Component {
           <a className="link" href="#Hire">
             Hire
           </a>
-          <a className="link" href="#LogIn">
+          <a className="link selected" href="#LogIn">
             Log In
           </a>
         </div>
@@ -31,19 +31,27 @@ export class NavBar extends Component {
 export class MainSection extends Component {
   render() {
     return (
-      <div>
-        <h1>Community Giving Opportunity</h1>
+      <div className="mainContent">
+        <div className="mainContent-info">
+          <h1 className="info-header">
+            Community
+            <br /> Giving Opportunity
+          </h1>
+          <p className="info-body">
+            Memerama is the largest community of accomplished designers and
+            developers giving each other work opportunities and making thousands
+            in revenue.
+          </p>
+          <div className="info-buttons">
+            <button>Create Account</button>
+            <button>How It Works</button>
+          </div>
+          <div className="info-footer">
+            <h3>FREE for first 3 months</h3>
+            <h3>No Credit Card Needed</h3>
+          </div>
+        </div>
         <img alt="Computer" src={require("../images/Computer_0.png")} />
-
-        <p>
-          Memerama is the largest community of accomplished designers and
-          developers giving each other work opportunities and making thousands
-          in revenue.
-        </p>
-        <button />
-        <button />
-        <h3>FREE for first 3 months</h3>
-        <h3>No Credit Card Needed</h3>
       </div>
     );
   }
