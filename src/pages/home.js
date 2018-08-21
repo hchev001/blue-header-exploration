@@ -44,11 +44,11 @@ export class MainSection extends Component {
           </p>
           <div className="info-buttons">
             <button>Create Account</button>
-            <button>How It Works</button>
+            <button className="btn-selected">How It Works</button>
           </div>
           <div className="info-footer">
-            <h3>FREE for first 3 months</h3>
-            <h3>No Credit Card Needed</h3>
+            <div className="footer-item">FREE for first 3 months</div>
+            <div className="footer-item">No Credit Card Needed</div>
           </div>
         </div>
         <img alt="Computer" src={require("../images/Computer_0.png")} />
